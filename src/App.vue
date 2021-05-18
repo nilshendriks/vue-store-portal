@@ -6,10 +6,10 @@
   </header>
   <div id="sideNavBar">
     <div id="nav" class="mdl-tab-bar open">
-      <router-link to="/">Dashboard</router-link>
-      <router-link to="/orders">Orders</router-link>
-      <router-link to="/invoices">Invoices</router-link>
-      <router-link to="/news">News</router-link>
+      <router-link :to="{ name: 'Dashboard' }">Dashboard</router-link>
+      <router-link :to="{ name: 'Orders' }">Orders</router-link>
+      <router-link :to="{ name: 'Invoices' }">Invoices</router-link>
+      <router-link :to="{ name: 'News' }">News</router-link>
     </div>
   </div>
   <main class="dp-l-main">
